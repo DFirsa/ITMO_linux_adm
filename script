@@ -33,7 +33,7 @@ cat ~/list_d >> ~/list_conf_d
 
 mkdir .sub
 cp ~/list_conf_d .sub/
-cp -backupp=simple  ~/list_conf_d .sub/ #18
+cp --backup=simple  ~/list_conf_d .sub/ #18
 ls -aR
 
 man man > ~/man.txt
