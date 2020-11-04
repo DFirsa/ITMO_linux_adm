@@ -65,5 +65,5 @@ chmod u+s /home/test14/nano
 mkdir /home/test15
 touch /home/test15/secret_file
 echo "This is trap, bruh" > /home/test15/secret_file
-chmod 111 /home/test15/secret_file
-
+chmod 111 /home/test15
+chmod 444 /home/test15/secret_file
